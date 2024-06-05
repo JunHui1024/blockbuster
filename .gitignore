@@ -1,0 +1,6 @@
+# 项目排除路径
+/blockbuster-api/target/
+/blockbuster-core/target/
+/blockbuster-service/target/
+/blockbuster-ui/target/
+/blockbuster-web/target/

@@ -1,0 +1,1729 @@
+[2024-03-14 19:26:17]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"Starting QuickForumApplication using Java 17 on cjhcomputer with PID 8352 (G:\develop\git\repository\blockbuster\blockbuster-web\target\classes started by cjh in G:\develop\git\repository\blockbuster)"}
+[2024-03-14 19:26:17]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"No active profile set, falling back to 1 default profile: "default""}
+[2024-03-14 19:26:17]|||{"logger":"o.s.b.d.restart.ChangeableUrls", "thread":"restartedMain", "msg":"The Class-Path manifest attribute in D:\maven\repository\com\github\plexpt\chatgpt\4.0.5\chatgpt-4.0.5.jar referenced one or more files that do not exist: file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/lombok-1.18.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/slf4j-api-2.0.7.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/logback-core-1.4.6.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/logback-classic-1.4.6.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-webmvc-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-aop-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-beans-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-context-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-core-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-jcl-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-expression-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-web-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/jackson-databind-2.14.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/jackson-annotations-2.14.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/jackson-core-2.14.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/hutool-all-5.8.15.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/fastjson-2.0.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/fastjson2-extension-2.0.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/fastjson2-2.0.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/okhttp-sse-3.14.9.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/okhttp-3.14.9.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/okio-1.17.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/logging-interceptor-3.14.9.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/retrofit-2.9.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/converter-jackson-2.9.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/adapter-rxjava2-2.9.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/rxjava-2.0.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/reactive-streams-1.0.3.jar"}
+[2024-03-14 19:26:17]|||{"logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor", "thread":"restartedMain", "msg":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}
+[2024-03-14 19:26:17]|||{"logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor", "thread":"restartedMain", "msg":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}
+[2024-03-14 19:26:21]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+[2024-03-14 19:26:21]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Bootstrapping Spring Data Redis repositories in DEFAULT mode."}
+[2024-03-14 19:26:21]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces."}
+[2024-03-14 19:26:21]|||{"logger":"o.m.s.mapper.ClassPathMapperScanner", "thread":"restartedMain", "msg":"No MyBatis mapper was found in '[com.cjh.blockbuster.web]' package. Please check your configuration."}
+[2024-03-14 19:26:23]|||{"logger":"c.c.b.core.senstive.SensitiveService", "thread":"restartedMain", "msg":"敏感词初始化完成!"}
+[2024-03-14 19:26:25]|||{"logger":"o.s.b.w.e.tomcat.TomcatWebServer", "thread":"restartedMain", "msg":"Tomcat initialized with port(s): 8080 (http)"}
+[2024-03-14 19:26:25]|||{"logger":"o.a.coyote.http11.Http11NioProtocol", "thread":"restartedMain", "msg":"Initializing ProtocolHandler ["http-nio-8080"]"}
+[2024-03-14 19:26:25]|||{"logger":"o.a.catalina.core.StandardService", "thread":"restartedMain", "msg":"Starting service [Tomcat]"}
+[2024-03-14 19:26:25]|||{"logger":"o.a.catalina.core.StandardEngine", "thread":"restartedMain", "msg":"Starting Servlet engine: [Apache Tomcat/9.0.64]"}
+[2024-03-14 19:26:25]|||{"logger":"o.a.c.c.C.[Tomcat].[localhost].[/]", "thread":"restartedMain", "msg":"Initializing Spring embedded WebApplicationContext"}
+[2024-03-14 19:26:25]|||{"logger":"o.s.b.w.s.c.ServletWebServerApplicationContext", "thread":"restartedMain", "msg":"Root WebApplicationContext: initialization completed in 8204 ms"}
+[2024-03-14 19:26:26]|||{"logger":"c.c.b.s.c.s.i.c.ChatGptIntegration", "thread":"restartedMain", "msg":"ChatGpt配置初始化完成: ChatGptIntegration.ChatGptConfig(main=CHAT_GPT_3_5, conf={CHAT_GPT_3_5=ChatGptIntegration.GptConf(keys=[], proxy=true, apiHost=https://api.openai.com/, timeOut=900, maxToken=3000), CHAT_GPT_4=ChatGptIntegration.GptConf(keys=[], proxy=true, apiHost=https://api.openai.com/, timeOut=900, maxToken=200000)})"}
+[2024-03-14 19:26:27]|||{"logger":"c.c.b.w.c.i.ForumDataSourceInitializer", "thread":"restartedMain", "msg":"数据库已存在，无需初始化"}
+[2024-03-14 19:26:27]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"restartedMain", "msg":"HikariPool-1 - Starting..."}
+[2024-03-14 19:26:27]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"restartedMain", "msg":"HikariPool-1 - Start completed."}
+[2024-03-14 19:26:28]|||{"logger":"o.s.b.d.a.OptionalLiveReloadServer", "thread":"restartedMain", "msg":"LiveReload server is running on port 35729"}
+[2024-03-14 19:26:29]|||{"logger":"liquibase.lockservice", "thread":"restartedMain", "msg":"Successfully acquired change log lock"}
+[2024-03-14 19:26:30]|||{"logger":"liquibase.changelog", "thread":"restartedMain", "msg":"Reading from pai_coding.DATABASECHANGELOG"}
+[2024-03-14 19:26:30]|||{"logger":"liquibase.lockservice", "thread":"restartedMain", "msg":"Successfully released change log lock"}
+[2024-03-14 19:26:30]|||{"logger":"o.a.coyote.http11.Http11NioProtocol", "thread":"restartedMain", "msg":"Starting ProtocolHandler ["http-nio-8080"]"}
+[2024-03-14 19:26:30]|||{"logger":"o.s.b.w.e.tomcat.TomcatWebServer", "thread":"restartedMain", "msg":"Tomcat started on port(s): 8080 (http) with context path ''"}
+[2024-03-14 19:26:31]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"restartedMain", "msg":"Starting..."}
+[2024-03-14 19:26:31]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"restartedMain", "msg":"BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@12f0bf4f]]"}
+[2024-03-14 19:26:31]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"restartedMain", "msg":"Started."}
+[2024-03-14 19:26:31]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"Started QuickForumApplication in 14.87 seconds (JVM running for 16.594)"}
+[2024-03-14 19:26:31]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"启动成功，点击进入首页: http://127.0.0.1:8080"}
+[2024-03-14 19:26:31]|||{"logger":"c.c.b.core.senstive.SensitiveService", "thread":"restartedMain", "msg":"敏感词初始化完成!"}
+[2024-03-14 19:26:32]|||{"logger":"c.c.b.c.a.DynamicConfigContainer", "thread":"restartedMain", "msg":"配置刷新! 旧:{}, 新:{"view.site.starInfo":"## 该文档仅「二哥的编程星球」VIP 用户可见\n\n二哥的编程星球内容包括：\n\n1. 付费文档：技术派、MYDB 等项目配套的 120+篇教程查看权限\n2. 面试指南：校招、社招的 40 万+字面试求职攻略\n3. 智能助手：无限期使用派聪明 AI 助手，已对接讯飞星火和 ChatGPT双通道，不用花 1 分钱\n4. 专属问答：向二哥 1v1 发起提问，内容不限于 offer 选择、学习路线、职业规划等\n5. 简历修改：提供简历修改服务，附赠星球 100+优质简历模板可供参考\n6. 学习环境：打造一个沉浸式的学习环境，有一种高考冲刺、大学考研的氛围\n\n![](https://cdn.tobebetterjavaer.com/paicoding/153ba04898384c0c6b03dfe6ce1cbe76.jpg)\n\n\n> 步骤①：微信扫描上方二维码，点击「加入知识星球」按钮\n> 步骤②：访问星球置顶帖球友必看：https://t.zsxq.com/11rEo9Pdu 获取项目配套文档的语雀访问地址和密码\n\n\n"}"}
+[2024-03-14 19:26:35]|||{"logger":"o.a.tomcat.util.http.parser.Cookie", "thread":"http-nio-8080-exec-1", "msg":"A cookie header was received [Hm_lvt_2745ad927051c4bc7b7ee34b781df793=1709043203,1710077790;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level."}
+[2024-03-14 19:26:35]|||{"logger":"o.a.c.c.C.[Tomcat].[localhost].[/]", "thread":"http-nio-8080-exec-1", "msg":"Initializing Spring DispatcherServlet 'dispatcherServlet'"}
+[2024-03-14 19:26:35]|||{"logger":"o.s.web.servlet.DispatcherServlet", "thread":"http-nio-8080-exec-1", "msg":"Initializing Servlet 'dispatcherServlet'"}
+[2024-03-14 19:26:35]|||{"logger":"o.s.web.servlet.DispatcherServlet", "thread":"http-nio-8080-exec-1", "msg":"Completed initialization in 1 ms"}
+[2024-03-14 19:26:37]|c0a8006b.1710424596334.083521000||{"logger":"c.c.b.s.u.s.help.UserSessionHelper", "thread":"http-nio-8080-exec-1", "msg":"jwt token校验失败! token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwYWlfY29kaW5nIiwiZXhwIjoxNzEyNjY5ODYwLCJzIjoiYzBhODAwNmIuMTcxMDA3Nzg2MDI4NS4xMzg3MjEwNDkiLCJ1IjoxfQ.oodt22RrfO4oDb8YjYrupMvjvX4h9Xf1XF5DlXCtqWc, msg: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379"}
+[2024-03-14 19:26:37]|c0a8006b.1710424596334.083521000||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-1", "msg":"/ -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 1552 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000804  52%   traceId
+000000078  05%   请求基本信息
+000000658  42%   登录用户信息
+000000010  01%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:26:37]|c0a8006b.1710424596334.083521000||{"logger":"c.b.m.c.t.support.ReflectLambdaMeta", "thread":"http-nio-8080-exec-1", "msg":"Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @757acd7b"}
+[2024-03-14 19:26:37]|c0a8006b.1710424596334.083521000||{"logger":"c.c.b.w.global.ForumExceptionHandler", "thread":"http-nio-8080-exec-1", "msg":"unexpect error! ReqInfoContext.ReqInfo(appKey=null, host=127.0.0.1:8080, path=/, clientIp=192.168.0.107, referer=null, payload=null, userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwYWlfY29kaW5nIiwiZXhwIjoxNzEyNjY5ODYwLCJzIjoiYzBhODAwNmIuMTcxMDA3Nzg2MDI4NS4xMzg3MjEwNDkiLCJ1IjoxfQ.oodt22RrfO4oDb8YjYrupMvjvX4h9Xf1XF5DlXCtqWc, userId=null, user=null, msgNum=null, seo=null, deviceId=edefbe85-7f75-4f80-9003-77c335236db4)"}
+java.util.concurrent.CompletionException: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1807)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1093)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:211)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at com.cjh.blockbuster.core.cache.RedisClient.hGetAll(RedisClient.java:144)
+	at com.cjh.blockbuster.service.statistics.service.impl.CountServiceImpl.queryArticleStatisticInfo(CountServiceImpl.java:92)
+	at com.cjh.blockbuster.service.article.service.impl.ArticleReadServiceImpl.fillArticleRelatedInfo(ArticleReadServiceImpl.java:314)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.cjh.blockbuster.service.article.service.impl.ArticleReadServiceImpl.buildArticleListVo(ArticleReadServiceImpl.java:297)
+	at com.cjh.blockbuster.service.article.service.impl.ArticleReadServiceImpl.queryArticlesByCategory(ArticleReadServiceImpl.java:173)
+	at com.cjh.blockbuster.web.front.home.helper.IndexRecommendHelper.articleList(IndexRecommendHelper.java:95)
+	at com.cjh.blockbuster.web.front.home.helper.IndexRecommendHelper.lambda$buildIndexVo$0(IndexRecommendHelper.java:59)
+	at com.cjh.blockbuster.core.async.AsyncUtil$CompletableFutureBridge.lambda$runWithTime$0(AsyncUtil.java:178)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	... 3 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
+	... 29 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:26:37]|c0a8006b.1710424596334.083521000||{"logger":"o.a.c.c.C.[.[.[.[dispatcherServlet]", "thread":"http-nio-8080-exec-1", "msg":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception"}
+java.lang.IllegalStateException: Can't start StopWatch: it's already running
+	at cn.hutool.core.date.StopWatch.start(StopWatch.java:157)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:26:37]|c0a8006b.1710424596334.083521000||{"logger":"o.a.c.c.C.[.[.[.[dispatcherServlet]", "thread":"http-nio-8080-exec-1", "msg":"Servlet.service() for servlet [dispatcherServlet] threw exception"}
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:26:37]|c0a8006b.1710424596334.083521000||{"logger":"o.a.c.c.C.[Tomcat].[localhost]", "thread":"http-nio-8080-exec-1", "msg":"Exception Processing ErrorPage[errorCode=0, location=/error]"}
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:403)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:249)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:344)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1093)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:211)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at com.cjh.blockbuster.core.cache.RedisClient.hMGet(RedisClient.java:213)
+	at com.cjh.blockbuster.service.sitemap.service.SitemapServiceImpl.querySiteVisitInfo(SitemapServiceImpl.java:260)
+	at com.cjh.blockbuster.web.global.GlobalInitService.globalAttr(GlobalInitService.java:64)
+	at com.cjh.blockbuster.web.global.ForumExceptionHandler.resolveException(ForumExceptionHandler.java:66)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 36 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
+	... 56 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:26:38]|||{"logger":"o.a.c.c.C.[.[.[.[dispatcherServlet]", "thread":"http-nio-8080-exec-3", "msg":"Servlet.service() for servlet [dispatcherServlet] threw exception"}
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:26:38]|||{"logger":"o.a.c.c.C.[Tomcat].[localhost]", "thread":"http-nio-8080-exec-3", "msg":"Exception Processing ErrorPage[errorCode=0, location=/error]"}
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:403)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:249)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1093)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:211)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at com.cjh.blockbuster.core.cache.RedisClient.hMGet(RedisClient.java:213)
+	at com.cjh.blockbuster.service.sitemap.service.SitemapServiceImpl.querySiteVisitInfo(SitemapServiceImpl.java:260)
+	at com.cjh.blockbuster.web.global.GlobalInitService.globalAttr(GlobalInitService.java:64)
+	at com.cjh.blockbuster.web.global.ForumExceptionHandler.resolveException(ForumExceptionHandler.java:66)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 35 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
+	... 55 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:26:57]|c0a8006b.1710424616937.083521001||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-5", "msg":"/ -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 118 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000001  01%   traceId
+000000000  00%   请求基本信息
+000000117  99%   登录用户信息
+000000000  00%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:26:57]|c0a8006b.1710424616937.083521001||{"logger":"c.c.blockbuster.core.async.AsyncUtil", "thread":"http-nio-8080-exec-5", "msg":"
+---------------------
+
+StopWatch '首页响应': running time = 109 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+21		19.27%		侧边栏
+0		00.00%		用户信息
+108		99.08%		文章列表
+77		70.64%		置顶文章
+3		02.75%		轮播图
+
+--------------------
+"}
+[2024-03-14 19:26:57]|c0a8006b.1710424616937.083521001||{"logger":"org.thymeleaf.TemplateEngine", "thread":"http-nio-8080-exec-5", "msg":"[THYMELEAF][http-nio-8080-exec-5] Exception processing template "views/home/index": An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")"}
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:69)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 51 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 53 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1005E: Type cannot be found 'com.cjh.blockbuster.core.util.DateUtil'
+	at org.springframework.expression.spel.support.StandardTypeLocator.findType(StandardTypeLocator.java:117)
+	at org.thymeleaf.spring5.expression.ThymeleafEvaluationContext$ThymeleafEvaluationContextACLTypeLocator.findType(ThymeleafEvaluationContext.java:193)
+	at org.springframework.expression.spel.ExpressionState.findType(ExpressionState.java:155)
+	at org.springframework.expression.spel.ast.TypeReference.getValueInternal(TypeReference.java:69)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:55)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 84 common frames omitted
+[2024-03-14 19:26:57]|c0a8006b.1710424616937.083521001||{"logger":"o.a.c.c.C.[.[.[.[dispatcherServlet]", "thread":"http-nio-8080-exec-5", "msg":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception"}
+java.lang.IllegalStateException: Can't start StopWatch: it's already running
+	at cn.hutool.core.date.StopWatch.start(StopWatch.java:157)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:27:02]|c0a8006b.1710424622399.083521002||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-5", "msg":"/ -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 3 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000001  48%   traceId
+000000000  09%   请求基本信息
+000000001  37%   登录用户信息
+000000000  06%   pv/uv站点统计
+000000000  01%   回写traceId
+"}
+[2024-03-14 19:27:02]|c0a8006b.1710424622399.083521002||{"logger":"c.c.blockbuster.core.async.AsyncUtil", "thread":"http-nio-8080-exec-5", "msg":"
+---------------------
+
+StopWatch '首页响应': running time = 53 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+5		09.43%		侧边栏
+0		00.00%		用户信息
+52		98.11%		文章列表
+30		56.60%		置顶文章
+4		07.55%		轮播图
+
+--------------------
+"}
+[2024-03-14 19:27:02]|c0a8006b.1710424622399.083521002||{"logger":"org.thymeleaf.TemplateEngine", "thread":"http-nio-8080-exec-5", "msg":"[THYMELEAF][http-nio-8080-exec-5] Exception processing template "views/home/index": An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")"}
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:69)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 51 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 53 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1005E: Type cannot be found 'com.cjh.blockbuster.core.util.DateUtil'
+	at org.springframework.expression.spel.support.StandardTypeLocator.findType(StandardTypeLocator.java:117)
+	at org.thymeleaf.spring5.expression.ThymeleafEvaluationContext$ThymeleafEvaluationContextACLTypeLocator.findType(ThymeleafEvaluationContext.java:193)
+	at org.springframework.expression.spel.ExpressionState.findType(ExpressionState.java:155)
+	at org.springframework.expression.spel.ast.TypeReference.getValueInternal(TypeReference.java:69)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:55)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 84 common frames omitted
+[2024-03-14 19:27:02]|c0a8006b.1710424622399.083521002||{"logger":"o.a.c.c.C.[.[.[.[dispatcherServlet]", "thread":"http-nio-8080-exec-5", "msg":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception"}
+java.lang.IllegalStateException: Can't start StopWatch: it's already running
+	at cn.hutool.core.date.StopWatch.start(StopWatch.java:157)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:27:27]|||{"logger":"o.s.w.s.c.WebSocketMessageBrokerStats", "thread":"MessageBroker-1", "msg":"WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 2, completed tasks = 0]"}
+[2024-03-14 19:28:18]|c0a8006b.1710424698923.083521003||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-9", "msg":"/ -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 2 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000001  44%   traceId
+000000000  04%   请求基本信息
+000000000  38%   登录用户信息
+000000000  12%   pv/uv站点统计
+000000000  01%   回写traceId
+"}
+[2024-03-14 19:28:18]|c0a8006b.1710424698923.083521003||{"logger":"c.c.blockbuster.core.async.AsyncUtil", "thread":"http-nio-8080-exec-9", "msg":"
+---------------------
+
+StopWatch '首页响应': running time = 40 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+0		00.00%		侧边栏
+0		00.00%		用户信息
+40		100.00%		文章列表
+25		62.50%		置顶文章
+5		12.50%		轮播图
+
+--------------------
+"}
+[2024-03-14 19:28:19]|c0a8006b.1710424698923.083521003||{"logger":"org.thymeleaf.TemplateEngine", "thread":"http-nio-8080-exec-9", "msg":"[THYMELEAF][http-nio-8080-exec-9] Exception processing template "views/home/index": An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")"}
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:69)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 51 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 53 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1005E: Type cannot be found 'com.cjh.blockbuster.core.util.DateUtil'
+	at org.springframework.expression.spel.support.StandardTypeLocator.findType(StandardTypeLocator.java:117)
+	at org.thymeleaf.spring5.expression.ThymeleafEvaluationContext$ThymeleafEvaluationContextACLTypeLocator.findType(ThymeleafEvaluationContext.java:193)
+	at org.springframework.expression.spel.ExpressionState.findType(ExpressionState.java:155)
+	at org.springframework.expression.spel.ast.TypeReference.getValueInternal(TypeReference.java:69)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:55)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 84 common frames omitted
+[2024-03-14 19:28:19]|c0a8006b.1710424698923.083521003||{"logger":"o.a.c.c.C.[.[.[.[dispatcherServlet]", "thread":"http-nio-8080-exec-9", "msg":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception"}
+java.lang.IllegalStateException: Can't start StopWatch: it's already running
+	at cn.hutool.core.date.StopWatch.start(StopWatch.java:157)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:28:30]|c0a8006b.1710424710123.083521004||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-6", "msg":"/ -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 3 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000001  39%   traceId
+000000000  05%   请求基本信息
+000000001  50%   登录用户信息
+000000000  06%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:28:30]|c0a8006b.1710424710123.083521004||{"logger":"c.c.blockbuster.core.async.AsyncUtil", "thread":"http-nio-8080-exec-6", "msg":"
+---------------------
+
+StopWatch '首页响应': running time = 44 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+1		02.27%		侧边栏
+0		00.00%		用户信息
+43		97.73%		文章列表
+20		45.45%		置顶文章
+2		04.55%		轮播图
+
+--------------------
+"}
+[2024-03-14 19:28:30]|c0a8006b.1710424710123.083521004||{"logger":"org.thymeleaf.TemplateEngine", "thread":"http-nio-8080-exec-6", "msg":"[THYMELEAF][http-nio-8080-exec-6] Exception processing template "views/home/index": An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")"}
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:69)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 51 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 53 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1005E: Type cannot be found 'com.cjh.blockbuster.core.util.DateUtil'
+	at org.springframework.expression.spel.support.StandardTypeLocator.findType(StandardTypeLocator.java:117)
+	at org.thymeleaf.spring5.expression.ThymeleafEvaluationContext$ThymeleafEvaluationContextACLTypeLocator.findType(ThymeleafEvaluationContext.java:193)
+	at org.springframework.expression.spel.ExpressionState.findType(ExpressionState.java:155)
+	at org.springframework.expression.spel.ast.TypeReference.getValueInternal(TypeReference.java:69)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:55)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 84 common frames omitted
+[2024-03-14 19:28:30]|c0a8006b.1710424710123.083521004||{"logger":"o.a.c.c.C.[.[.[.[dispatcherServlet]", "thread":"http-nio-8080-exec-6", "msg":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception"}
+java.lang.IllegalStateException: Can't start StopWatch: it's already running
+	at cn.hutool.core.date.StopWatch.start(StopWatch.java:157)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:34:04]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"Thread-4", "msg":"Stopping..."}
+[2024-03-14 19:34:04]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"Thread-4", "msg":"BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@12f0bf4f]]"}
+[2024-03-14 19:34:04]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"Thread-4", "msg":"Stopped."}
+[2024-03-14 19:34:04]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"Thread-4", "msg":"HikariPool-1 - Shutdown initiated..."}
+[2024-03-14 19:34:04]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"Thread-4", "msg":"HikariPool-1 - Shutdown completed."}
+[2024-03-14 19:34:52]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"Starting QuickForumApplication using Java 17 on cjhcomputer with PID 8352 (G:\develop\git\repository\blockbuster\blockbuster-web\target\classes started by cjh in G:\develop\git\repository\blockbuster)"}
+[2024-03-14 19:34:52]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"No active profile set, falling back to 1 default profile: "default""}
+[2024-03-14 19:34:54]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+[2024-03-14 19:34:54]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Bootstrapping Spring Data Redis repositories in DEFAULT mode."}
+[2024-03-14 19:34:54]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces."}
+[2024-03-14 19:34:54]|||{"logger":"o.m.s.mapper.ClassPathMapperScanner", "thread":"restartedMain", "msg":"No MyBatis mapper was found in '[com.cjh.blockbuster.web]' package. Please check your configuration."}
+[2024-03-14 19:34:54]|||{"logger":"c.c.b.core.senstive.SensitiveService", "thread":"restartedMain", "msg":"敏感词初始化完成!"}
+[2024-03-14 19:34:55]|||{"logger":"o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext", "thread":"restartedMain", "msg":"Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory]: Factory method 'tomcatServletWebServerFactory' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'quickForumApplication': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'globalViewInterceptor' is expected to be of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor' but was actually of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor'"}
+[2024-03-14 19:34:55]|||{"logger":"o.s.b.a.l.ConditionEvaluationReportLoggingListener", "thread":"restartedMain", "msg":"
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled."}
+[2024-03-14 19:34:55]|||{"logger":"o.s.boot.SpringApplication", "thread":"restartedMain", "msg":"Application run failed"}
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory]: Factory method 'tomcatServletWebServerFactory' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'quickForumApplication': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'globalViewInterceptor' is expected to be of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor' but was actually of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.cjh.blockbuster.web.QuickForumApplication.main(QuickForumApplication.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory]: Factory method 'tomcatServletWebServerFactory' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'quickForumApplication': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'globalViewInterceptor' is expected to be of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor' but was actually of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:219)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory]: Factory method 'tomcatServletWebServerFactory' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'quickForumApplication': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'globalViewInterceptor' is expected to be of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor' but was actually of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'quickForumApplication': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'globalViewInterceptor' is expected to be of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor' but was actually of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor'
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1616)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.resolveStream(DefaultListableBeanFactory.java:2119)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.orderedStream(DefaultListableBeanFactory.java:2113)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat.tomcatServletWebServerFactory(ServletWebServerFactoryConfiguration.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'globalViewInterceptor' is expected to be of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor' but was actually of type 'com.cjh.blockbuster.web.hook.interceptor.GlobalViewInterceptor'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:417)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:398)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 55 common frames omitted
+[2024-03-14 19:35:06]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"Starting QuickForumApplication using Java 17 on cjhcomputer with PID 9004 (G:\develop\git\repository\blockbuster\blockbuster-web\target\classes started by cjh in G:\develop\git\repository\blockbuster)"}
+[2024-03-14 19:35:06]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"No active profile set, falling back to 1 default profile: "default""}
+[2024-03-14 19:35:06]|||{"logger":"o.s.b.d.restart.ChangeableUrls", "thread":"restartedMain", "msg":"The Class-Path manifest attribute in D:\maven\repository\com\github\plexpt\chatgpt\4.0.5\chatgpt-4.0.5.jar referenced one or more files that do not exist: file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/lombok-1.18.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/slf4j-api-2.0.7.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/logback-core-1.4.6.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/logback-classic-1.4.6.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-webmvc-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-aop-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-beans-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-context-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-core-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-jcl-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-expression-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-web-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/jackson-databind-2.14.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/jackson-annotations-2.14.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/jackson-core-2.14.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/hutool-all-5.8.15.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/fastjson-2.0.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/fastjson2-extension-2.0.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/fastjson2-2.0.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/okhttp-sse-3.14.9.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/okhttp-3.14.9.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/okio-1.17.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/logging-interceptor-3.14.9.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/retrofit-2.9.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/converter-jackson-2.9.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/adapter-rxjava2-2.9.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/rxjava-2.0.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/reactive-streams-1.0.3.jar"}
+[2024-03-14 19:35:06]|||{"logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor", "thread":"restartedMain", "msg":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}
+[2024-03-14 19:35:06]|||{"logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor", "thread":"restartedMain", "msg":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}
+[2024-03-14 19:35:08]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+[2024-03-14 19:35:08]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Bootstrapping Spring Data Redis repositories in DEFAULT mode."}
+[2024-03-14 19:35:08]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces."}
+[2024-03-14 19:35:08]|||{"logger":"o.m.s.mapper.ClassPathMapperScanner", "thread":"restartedMain", "msg":"No MyBatis mapper was found in '[com.cjh.blockbuster.web]' package. Please check your configuration."}
+[2024-03-14 19:35:09]|||{"logger":"c.c.b.core.senstive.SensitiveService", "thread":"restartedMain", "msg":"敏感词初始化完成!"}
+[2024-03-14 19:35:11]|||{"logger":"o.s.b.w.e.tomcat.TomcatWebServer", "thread":"restartedMain", "msg":"Tomcat initialized with port(s): 8080 (http)"}
+[2024-03-14 19:35:11]|||{"logger":"o.a.coyote.http11.Http11NioProtocol", "thread":"restartedMain", "msg":"Initializing ProtocolHandler ["http-nio-8080"]"}
+[2024-03-14 19:35:11]|||{"logger":"o.a.catalina.core.StandardService", "thread":"restartedMain", "msg":"Starting service [Tomcat]"}
+[2024-03-14 19:35:11]|||{"logger":"o.a.catalina.core.StandardEngine", "thread":"restartedMain", "msg":"Starting Servlet engine: [Apache Tomcat/9.0.64]"}
+[2024-03-14 19:35:11]|||{"logger":"o.a.c.c.C.[Tomcat].[localhost].[/]", "thread":"restartedMain", "msg":"Initializing Spring embedded WebApplicationContext"}
+[2024-03-14 19:35:11]|||{"logger":"o.s.b.w.s.c.ServletWebServerApplicationContext", "thread":"restartedMain", "msg":"Root WebApplicationContext: initialization completed in 5041 ms"}
+[2024-03-14 19:35:12]|||{"logger":"c.c.b.s.c.s.i.c.ChatGptIntegration", "thread":"restartedMain", "msg":"ChatGpt配置初始化完成: ChatGptIntegration.ChatGptConfig(main=CHAT_GPT_3_5, conf={CHAT_GPT_3_5=ChatGptIntegration.GptConf(keys=[], proxy=true, apiHost=https://api.openai.com/, timeOut=900, maxToken=3000), CHAT_GPT_4=ChatGptIntegration.GptConf(keys=[], proxy=true, apiHost=https://api.openai.com/, timeOut=900, maxToken=200000)})"}
+[2024-03-14 19:35:13]|||{"logger":"c.c.b.w.c.i.ForumDataSourceInitializer", "thread":"restartedMain", "msg":"数据库已存在，无需初始化"}
+[2024-03-14 19:35:13]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"restartedMain", "msg":"HikariPool-1 - Starting..."}
+[2024-03-14 19:35:13]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"restartedMain", "msg":"HikariPool-1 - Start completed."}
+[2024-03-14 19:35:14]|||{"logger":"o.s.b.d.a.OptionalLiveReloadServer", "thread":"restartedMain", "msg":"LiveReload server is running on port 35729"}
+[2024-03-14 19:35:15]|||{"logger":"liquibase.lockservice", "thread":"restartedMain", "msg":"Successfully acquired change log lock"}
+[2024-03-14 19:35:15]|||{"logger":"liquibase.changelog", "thread":"restartedMain", "msg":"Reading from pai_coding.DATABASECHANGELOG"}
+[2024-03-14 19:35:15]|||{"logger":"liquibase.lockservice", "thread":"restartedMain", "msg":"Successfully released change log lock"}
+[2024-03-14 19:35:16]|||{"logger":"o.a.coyote.http11.Http11NioProtocol", "thread":"restartedMain", "msg":"Starting ProtocolHandler ["http-nio-8080"]"}
+[2024-03-14 19:35:16]|||{"logger":"o.s.b.w.e.tomcat.TomcatWebServer", "thread":"restartedMain", "msg":"Tomcat started on port(s): 8080 (http) with context path ''"}
+[2024-03-14 19:35:16]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"restartedMain", "msg":"Starting..."}
+[2024-03-14 19:35:16]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"restartedMain", "msg":"BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2d7ce245]]"}
+[2024-03-14 19:35:16]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"restartedMain", "msg":"Started."}
+[2024-03-14 19:35:16]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"Started QuickForumApplication in 10.975 seconds (JVM running for 11.857)"}
+[2024-03-14 19:35:16]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"启动成功，点击进入首页: http://127.0.0.1:8080"}
+[2024-03-14 19:35:17]|||{"logger":"c.c.b.core.senstive.SensitiveService", "thread":"restartedMain", "msg":"敏感词初始化完成!"}
+[2024-03-14 19:35:17]|||{"logger":"c.c.b.c.a.DynamicConfigContainer", "thread":"restartedMain", "msg":"配置刷新! 旧:{}, 新:{"view.site.starInfo":"## 该文档仅「二哥的编程星球」VIP 用户可见\n\n二哥的编程星球内容包括：\n\n1. 付费文档：技术派、MYDB 等项目配套的 120+篇教程查看权限\n2. 面试指南：校招、社招的 40 万+字面试求职攻略\n3. 智能助手：无限期使用派聪明 AI 助手，已对接讯飞星火和 ChatGPT双通道，不用花 1 分钱\n4. 专属问答：向二哥 1v1 发起提问，内容不限于 offer 选择、学习路线、职业规划等\n5. 简历修改：提供简历修改服务，附赠星球 100+优质简历模板可供参考\n6. 学习环境：打造一个沉浸式的学习环境，有一种高考冲刺、大学考研的氛围\n\n![](https://cdn.tobebetterjavaer.com/paicoding/153ba04898384c0c6b03dfe6ce1cbe76.jpg)\n\n\n> 步骤①：微信扫描上方二维码，点击「加入知识星球」按钮\n> 步骤②：访问星球置顶帖球友必看：https://t.zsxq.com/11rEo9Pdu 获取项目配套文档的语雀访问地址和密码\n\n\n"}"}
+[2024-03-14 19:35:38]|||{"logger":"o.a.tomcat.util.http.parser.Cookie", "thread":"http-nio-8080-exec-1", "msg":"A cookie header was received [Hm_lvt_2745ad927051c4bc7b7ee34b781df793=1709043203,1710077790;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level."}
+[2024-03-14 19:35:38]|||{"logger":"o.a.c.c.C.[Tomcat].[localhost].[/]", "thread":"http-nio-8080-exec-1", "msg":"Initializing Spring DispatcherServlet 'dispatcherServlet'"}
+[2024-03-14 19:35:38]|||{"logger":"o.s.web.servlet.DispatcherServlet", "thread":"http-nio-8080-exec-1", "msg":"Initializing Servlet 'dispatcherServlet'"}
+[2024-03-14 19:35:38]|||{"logger":"o.s.web.servlet.DispatcherServlet", "thread":"http-nio-8080-exec-1", "msg":"Completed initialization in 2 ms"}
+[2024-03-14 19:35:40]|c0a8006b.1710425139375.090041000||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-1", "msg":"/ -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 1088 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000482  44%   traceId
+000000042  04%   请求基本信息
+000000553  51%   登录用户信息
+000000009  01%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:35:40]|c0a8006b.1710425139375.090041000||{"logger":"c.b.m.c.t.support.ReflectLambdaMeta", "thread":"http-nio-8080-exec-1", "msg":"Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @757acd7b"}
+[2024-03-14 19:35:40]|c0a8006b.1710425139375.090041000||{"logger":"c.c.blockbuster.core.async.AsyncUtil", "thread":"http-nio-8080-exec-1", "msg":"
+---------------------
+
+StopWatch '首页响应': running time = 125 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+43		34.40%		侧边栏
+0		00.00%		用户信息
+124		99.20%		文章列表
+114		91.20%		置顶文章
+17		13.60%		轮播图
+
+--------------------
+"}
+[2024-03-14 19:35:40]|c0a8006b.1710425139375.090041000||{"logger":"org.thymeleaf.TemplateEngine", "thread":"http-nio-8080-exec-1", "msg":"[THYMELEAF][http-nio-8080-exec-1] Exception processing template "views/home/index": An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")"}
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:69)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 51 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 53 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1005E: Type cannot be found 'com.cjh.blockbuster.core.util.DateUtil'
+	at org.springframework.expression.spel.support.StandardTypeLocator.findType(StandardTypeLocator.java:117)
+	at org.thymeleaf.spring5.expression.ThymeleafEvaluationContext$ThymeleafEvaluationContextACLTypeLocator.findType(ThymeleafEvaluationContext.java:193)
+	at org.springframework.expression.spel.ExpressionState.findType(ExpressionState.java:155)
+	at org.springframework.expression.spel.ast.TypeReference.getValueInternal(TypeReference.java:69)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:55)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 84 common frames omitted
+[2024-03-14 19:35:40]|c0a8006b.1710425139375.090041000||{"logger":"o.a.c.c.C.[.[.[.[dispatcherServlet]", "thread":"http-nio-8080-exec-1", "msg":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception"}
+java.lang.IllegalStateException: Can't start StopWatch: it's already running
+	at cn.hutool.core.date.StopWatch.start(StopWatch.java:157)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:35:49]|c0a8006b.1710425149823.090041001||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-6", "msg":"/ -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 2 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000000  41%   traceId
+000000000  05%   请求基本信息
+000000000  47%   登录用户信息
+000000000  08%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:35:49]|c0a8006b.1710425149823.090041001||{"logger":"c.c.blockbuster.core.async.AsyncUtil", "thread":"http-nio-8080-exec-6", "msg":"
+---------------------
+
+StopWatch '首页响应': running time = 40 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+5		12.50%		侧边栏
+0		00.00%		用户信息
+39		97.50%		文章列表
+27		67.50%		置顶文章
+4		10.00%		轮播图
+
+--------------------
+"}
+[2024-03-14 19:35:49]|c0a8006b.1710425149823.090041001||{"logger":"org.thymeleaf.TemplateEngine", "thread":"http-nio-8080-exec-6", "msg":"[THYMELEAF][http-nio-8080-exec-6] Exception processing template "views/home/index": An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")"}
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/views/home/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:69)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 51 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "T(com.cjh.blockbuster.core.util.DateUtil).time2day(article.createTime)" (template: "components/article/article-card" - line 56, col 13)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 53 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1005E: Type cannot be found 'com.cjh.blockbuster.core.util.DateUtil'
+	at org.springframework.expression.spel.support.StandardTypeLocator.findType(StandardTypeLocator.java:117)
+	at org.thymeleaf.spring5.expression.ThymeleafEvaluationContext$ThymeleafEvaluationContextACLTypeLocator.findType(ThymeleafEvaluationContext.java:193)
+	at org.springframework.expression.spel.ExpressionState.findType(ExpressionState.java:155)
+	at org.springframework.expression.spel.ast.TypeReference.getValueInternal(TypeReference.java:69)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:55)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 84 common frames omitted
+[2024-03-14 19:35:49]|c0a8006b.1710425149823.090041001||{"logger":"o.a.c.c.C.[.[.[.[dispatcherServlet]", "thread":"http-nio-8080-exec-6", "msg":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception"}
+java.lang.IllegalStateException: Can't start StopWatch: it's already running
+	at cn.hutool.core.date.StopWatch.start(StopWatch.java:157)
+	at com.cjh.blockbuster.web.hook.filter.ReqRecordFilter.doFilter(ReqRecordFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-03-14 19:36:13]|||{"logger":"o.s.w.s.c.WebSocketMessageBrokerStats", "thread":"MessageBroker-1", "msg":"WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 2, completed tasks = 0]"}
+[2024-03-14 19:38:44]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"SpringApplicationShutdownHook", "msg":"Stopping..."}
+[2024-03-14 19:38:44]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"SpringApplicationShutdownHook", "msg":"BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2d7ce245]]"}
+[2024-03-14 19:38:44]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"SpringApplicationShutdownHook", "msg":"Stopped."}
+[2024-03-14 19:38:44]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"SpringApplicationShutdownHook", "msg":"HikariPool-1 - Shutdown initiated..."}
+[2024-03-14 19:38:44]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"SpringApplicationShutdownHook", "msg":"HikariPool-1 - Shutdown completed."}
+[2024-03-14 19:39:07]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"Starting QuickForumApplication using Java 17 on cjhcomputer with PID 11760 (G:\develop\git\repository\blockbuster\blockbuster-web\target\classes started by cjh in G:\develop\git\repository\blockbuster)"}
+[2024-03-14 19:39:07]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"No active profile set, falling back to 1 default profile: "default""}
+[2024-03-14 19:39:07]|||{"logger":"o.s.b.d.restart.ChangeableUrls", "thread":"restartedMain", "msg":"The Class-Path manifest attribute in D:\maven\repository\com\github\plexpt\chatgpt\4.0.5\chatgpt-4.0.5.jar referenced one or more files that do not exist: file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/lombok-1.18.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/slf4j-api-2.0.7.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/logback-core-1.4.6.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/logback-classic-1.4.6.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-webmvc-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-aop-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-beans-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-context-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-core-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-jcl-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-expression-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/spring-web-5.3.25.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/jackson-databind-2.14.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/jackson-annotations-2.14.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/jackson-core-2.14.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/hutool-all-5.8.15.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/fastjson-2.0.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/fastjson2-extension-2.0.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/fastjson2-2.0.26.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/okhttp-sse-3.14.9.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/okhttp-3.14.9.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/okio-1.17.2.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/logging-interceptor-3.14.9.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/retrofit-2.9.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/converter-jackson-2.9.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/adapter-rxjava2-2.9.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/rxjava-2.0.0.jar,file:/D:/maven/repository/com/github/plexpt/chatgpt/4.0.5/lib/reactive-streams-1.0.3.jar"}
+[2024-03-14 19:39:07]|||{"logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor", "thread":"restartedMain", "msg":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}
+[2024-03-14 19:39:07]|||{"logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor", "thread":"restartedMain", "msg":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}
+[2024-03-14 19:39:09]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+[2024-03-14 19:39:09]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Bootstrapping Spring Data Redis repositories in DEFAULT mode."}
+[2024-03-14 19:39:09]|||{"logger":"o.s.d.r.c.RepositoryConfigurationDelegate", "thread":"restartedMain", "msg":"Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces."}
+[2024-03-14 19:39:09]|||{"logger":"o.m.s.mapper.ClassPathMapperScanner", "thread":"restartedMain", "msg":"No MyBatis mapper was found in '[com.cjh.blockbuster.web]' package. Please check your configuration."}
+[2024-03-14 19:39:10]|||{"logger":"c.c.b.core.senstive.SensitiveService", "thread":"restartedMain", "msg":"敏感词初始化完成!"}
+[2024-03-14 19:39:12]|||{"logger":"o.s.b.w.e.tomcat.TomcatWebServer", "thread":"restartedMain", "msg":"Tomcat initialized with port(s): 8080 (http)"}
+[2024-03-14 19:39:12]|||{"logger":"o.a.coyote.http11.Http11NioProtocol", "thread":"restartedMain", "msg":"Initializing ProtocolHandler ["http-nio-8080"]"}
+[2024-03-14 19:39:12]|||{"logger":"o.a.catalina.core.StandardService", "thread":"restartedMain", "msg":"Starting service [Tomcat]"}
+[2024-03-14 19:39:12]|||{"logger":"o.a.catalina.core.StandardEngine", "thread":"restartedMain", "msg":"Starting Servlet engine: [Apache Tomcat/9.0.64]"}
+[2024-03-14 19:39:13]|||{"logger":"o.a.c.c.C.[Tomcat].[localhost].[/]", "thread":"restartedMain", "msg":"Initializing Spring embedded WebApplicationContext"}
+[2024-03-14 19:39:13]|||{"logger":"o.s.b.w.s.c.ServletWebServerApplicationContext", "thread":"restartedMain", "msg":"Root WebApplicationContext: initialization completed in 5199 ms"}
+[2024-03-14 19:39:13]|||{"logger":"c.c.b.s.c.s.i.c.ChatGptIntegration", "thread":"restartedMain", "msg":"ChatGpt配置初始化完成: ChatGptIntegration.ChatGptConfig(main=CHAT_GPT_3_5, conf={CHAT_GPT_3_5=ChatGptIntegration.GptConf(keys=[], proxy=true, apiHost=https://api.openai.com/, timeOut=900, maxToken=3000), CHAT_GPT_4=ChatGptIntegration.GptConf(keys=[], proxy=true, apiHost=https://api.openai.com/, timeOut=900, maxToken=200000)})"}
+[2024-03-14 19:39:14]|||{"logger":"c.c.b.w.c.i.ForumDataSourceInitializer", "thread":"restartedMain", "msg":"数据库已存在，无需初始化"}
+[2024-03-14 19:39:14]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"restartedMain", "msg":"HikariPool-1 - Starting..."}
+[2024-03-14 19:39:14]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"restartedMain", "msg":"HikariPool-1 - Start completed."}
+[2024-03-14 19:39:15]|||{"logger":"o.s.b.d.a.OptionalLiveReloadServer", "thread":"restartedMain", "msg":"LiveReload server is running on port 35729"}
+[2024-03-14 19:39:16]|||{"logger":"liquibase.lockservice", "thread":"restartedMain", "msg":"Successfully acquired change log lock"}
+[2024-03-14 19:39:16]|||{"logger":"liquibase.changelog", "thread":"restartedMain", "msg":"Reading from pai_coding.DATABASECHANGELOG"}
+[2024-03-14 19:39:17]|||{"logger":"liquibase.lockservice", "thread":"restartedMain", "msg":"Successfully released change log lock"}
+[2024-03-14 19:39:17]|||{"logger":"o.a.coyote.http11.Http11NioProtocol", "thread":"restartedMain", "msg":"Starting ProtocolHandler ["http-nio-8080"]"}
+[2024-03-14 19:39:17]|||{"logger":"o.s.b.w.e.tomcat.TomcatWebServer", "thread":"restartedMain", "msg":"Tomcat started on port(s): 8080 (http) with context path ''"}
+[2024-03-14 19:39:18]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"restartedMain", "msg":"Starting..."}
+[2024-03-14 19:39:18]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"restartedMain", "msg":"BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@531608b8]]"}
+[2024-03-14 19:39:18]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"restartedMain", "msg":"Started."}
+[2024-03-14 19:39:18]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"Started QuickForumApplication in 11.238 seconds (JVM running for 12.007)"}
+[2024-03-14 19:39:18]|||{"logger":"c.c.b.web.QuickForumApplication", "thread":"restartedMain", "msg":"启动成功，点击进入首页: http://127.0.0.1:8080"}
+[2024-03-14 19:39:18]|||{"logger":"c.c.b.core.senstive.SensitiveService", "thread":"restartedMain", "msg":"敏感词初始化完成!"}
+[2024-03-14 19:39:18]|||{"logger":"c.c.b.c.a.DynamicConfigContainer", "thread":"restartedMain", "msg":"配置刷新! 旧:{}, 新:{"view.site.starInfo":"## 该文档仅「二哥的编程星球」VIP 用户可见\n\n二哥的编程星球内容包括：\n\n1. 付费文档：技术派、MYDB 等项目配套的 120+篇教程查看权限\n2. 面试指南：校招、社招的 40 万+字面试求职攻略\n3. 智能助手：无限期使用派聪明 AI 助手，已对接讯飞星火和 ChatGPT双通道，不用花 1 分钱\n4. 专属问答：向二哥 1v1 发起提问，内容不限于 offer 选择、学习路线、职业规划等\n5. 简历修改：提供简历修改服务，附赠星球 100+优质简历模板可供参考\n6. 学习环境：打造一个沉浸式的学习环境，有一种高考冲刺、大学考研的氛围\n\n![](https://cdn.tobebetterjavaer.com/paicoding/153ba04898384c0c6b03dfe6ce1cbe76.jpg)\n\n\n> 步骤①：微信扫描上方二维码，点击「加入知识星球」按钮\n> 步骤②：访问星球置顶帖球友必看：https://t.zsxq.com/11rEo9Pdu 获取项目配套文档的语雀访问地址和密码\n\n\n"}"}
+[2024-03-14 19:39:20]|||{"logger":"o.a.tomcat.util.http.parser.Cookie", "thread":"http-nio-8080-exec-1", "msg":"A cookie header was received [Hm_lvt_2745ad927051c4bc7b7ee34b781df793=1709043203,1710077790;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level."}
+[2024-03-14 19:39:20]|||{"logger":"o.a.c.c.C.[Tomcat].[localhost].[/]", "thread":"http-nio-8080-exec-1", "msg":"Initializing Spring DispatcherServlet 'dispatcherServlet'"}
+[2024-03-14 19:39:20]|||{"logger":"o.s.web.servlet.DispatcherServlet", "thread":"http-nio-8080-exec-1", "msg":"Initializing Servlet 'dispatcherServlet'"}
+[2024-03-14 19:39:20]|||{"logger":"o.s.web.servlet.DispatcherServlet", "thread":"http-nio-8080-exec-1", "msg":"Completed initialization in 2 ms"}
+[2024-03-14 19:39:21]|c0a8006b.1710425361106.117601000||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-1", "msg":"/ -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 1052 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000496  47%   traceId
+000000015  02%   请求基本信息
+000000530  50%   登录用户信息
+000000008  01%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:39:21]|c0a8006b.1710425361106.117601000||{"logger":"c.b.m.c.t.support.ReflectLambdaMeta", "thread":"http-nio-8080-exec-1", "msg":"Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @757acd7b"}
+[2024-03-14 19:39:22]|c0a8006b.1710425361106.117601000||{"logger":"c.c.blockbuster.core.async.AsyncUtil", "thread":"http-nio-8080-exec-1", "msg":"
+---------------------
+
+StopWatch '首页响应': running time = 202 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+82		40.59%		侧边栏
+0		00.00%		用户信息
+198		98.02%		文章列表
+102		50.50%		置顶文章
+20		09.90%		轮播图
+
+--------------------
+"}
+[2024-03-14 19:39:22]|||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-1", "msg":"/ - cost:
+StopWatch '请求耗时': running time = 2097 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000001077  51%   请求参数构建
+000000000  00%   cors
+000000987  47%   业务执行
+000000031  02%   输出请求日志
+"}
+[2024-03-14 19:39:23]|c0a8006b.1710425363196.117601001||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-1", "msg":"/forum/image/20240227074424975_11.jpg -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 2 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000001  36%   traceId
+000000000  11%   请求基本信息
+000000001  47%   登录用户信息
+000000000  06%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:39:23]|||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-1", "msg":"/forum/image/20240227074424975_11.jpg - cost:
+StopWatch '请求耗时': running time = 40 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000004  11%   请求参数构建
+000000000  00%   cors
+000000020  50%   业务执行
+000000015  39%   输出请求日志
+"}
+[2024-03-14 19:39:38]|c0a8006b.1710425378080.117601002||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-7", "msg":"/article/api/list/category/0 -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 2 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000000  41%   traceId
+000000000  08%   请求基本信息
+000000000  43%   登录用户信息
+000000000  07%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:39:38]|||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-7", "msg":"/article/api/list/category/0 - cost:
+StopWatch '请求耗时': running time = 50 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000002  06%   请求参数构建
+000000000  00%   cors
+000000037  75%   业务执行
+000000009  19%   输出请求日志
+"}
+[2024-03-14 19:39:39]|c0a8006b.1710425379815.117601003||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-6", "msg":"/column -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 1 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000000  16%   traceId
+000000000  05%   请求基本信息
+000000001  65%   登录用户信息
+000000000  13%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:39:39]|||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-6", "msg":"/column - cost:
+StopWatch '请求耗时': running time = 94 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000002  03%   请求参数构建
+000000000  00%   cors
+000000084  90%   业务执行
+000000006  07%   输出请求日志
+"}
+[2024-03-14 19:39:40]|c0a8006b.1710425380077.117601004||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-2", "msg":"/forum/image/20240227074424975_11.jpg -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 2 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000000  14%   traceId
+000000000  05%   请求基本信息
+000000001  73%   登录用户信息
+000000000  09%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:39:40]|||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-2", "msg":"/forum/image/20240227074424975_11.jpg - cost:
+StopWatch '请求耗时': running time = 15 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000003  23%   请求参数构建
+000000000  00%   cors
+000000002  16%   业务执行
+000000009  61%   输出请求日志
+"}
+[2024-03-14 19:39:41]|c0a8006b.1710425381495.117601005||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-4", "msg":"/subscribe -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 2 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000000  31%   traceId
+000000000  04%   请求基本信息
+000000001  57%   登录用户信息
+000000000  07%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:39:41]|c0a8006b.1710425381495.117601005||{"logger":"c.cjh.blockbuster.core.mdc.MdcAspect", "thread":"http-nio-8080-exec-4", "msg":"执行耗时: WxLoginController#subscribe = 26ms"}
+[2024-03-14 19:39:41]|||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-4", "msg":"/subscribe - cost:
+StopWatch '请求耗时': running time = 68 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000003  05%   请求参数构建
+000000000  00%   cors
+000000053  78%   业务执行
+000000011  17%   输出请求日志
+"}
+[2024-03-14 19:39:42]|c0a8006b.1710425382659.117601006||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-1", "msg":"/login/username -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 3 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000000  07%   traceId
+000000002  60%   请求基本信息
+000000001  28%   登录用户信息
+000000000  05%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:39:42]|||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-1", "msg":"/login/username - cost:
+StopWatch '请求耗时': running time = 59 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000004  08%   请求参数构建
+000000000  00%   cors
+000000045  77%   业务执行
+000000009  15%   输出请求日志
+"}
+[2024-03-14 19:39:42]|c0a8006b.1710425382726.117601008||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-3", "msg":"/column -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 19 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000000  02%   traceId
+000000000  00%   请求基本信息
+000000018  97%   登录用户信息
+000000000  01%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:39:42]|c0a8006b.1710425382726.117601008||{"logger":"c.c.b.s.r.s.i.UserActivityRankServiceImpl", "thread":"http-nio-8080-exec-3", "msg":"活跃度更新加分! key#field = activity_rank_20240314#1, add = 1, newScore = 1.0"}
+[2024-03-14 19:39:42]|||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-3", "msg":"/column - cost:
+StopWatch '请求耗时': running time = 94 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000019  21%   请求参数构建
+000000000  00%   cors
+000000063  68%   业务执行
+000000010  12%   输出请求日志
+"}
+[2024-03-14 19:39:43]|c0a8006b.1710425382999.117601009||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-6", "msg":"/forum/image/20240227074424975_11.jpg -> 请求构建耗时: 
+StopWatch '请求参数构建': running time = 144 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000000  00%   traceId
+000000000  00%   请求基本信息
+000000143  100%   登录用户信息
+000000000  00%   pv/uv站点统计
+000000000  00%   回写traceId
+"}
+[2024-03-14 19:39:43]|||{"logger":"c.c.b.w.hook.filter.ReqRecordFilter", "thread":"http-nio-8080-exec-6", "msg":"/forum/image/20240227074424975_11.jpg - cost:
+StopWatch '请求耗时': running time = 155 ms
+---------------------------------------------
+ms         %     Task name
+---------------------------------------------
+000000144  93%   请求参数构建
+000000000  00%   cors
+000000002  01%   业务执行
+000000008  06%   输出请求日志
+"}
+[2024-03-14 19:39:48]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"SpringApplicationShutdownHook", "msg":"Stopping..."}
+[2024-03-14 19:39:48]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"SpringApplicationShutdownHook", "msg":"BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@531608b8]]"}
+[2024-03-14 19:39:48]|||{"logger":"o.s.m.s.b.SimpleBrokerMessageHandler", "thread":"SpringApplicationShutdownHook", "msg":"Stopped."}
+[2024-03-14 19:39:50]|||{"logger":"c.c.b.w.f.l.wx.helper.WxLoginHelper", "thread":"http-nio-8080-exec-10", "msg":"sse 超时中断 --> 666"}
+[2024-03-14 19:39:50]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"SpringApplicationShutdownHook", "msg":"HikariPool-1 - Shutdown initiated..."}
+[2024-03-14 19:39:50]|||{"logger":"com.zaxxer.hikari.HikariDataSource", "thread":"SpringApplicationShutdownHook", "msg":"HikariPool-1 - Shutdown completed."}
